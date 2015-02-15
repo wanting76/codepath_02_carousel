@@ -1,25 +1,35 @@
-CodePath_Dropbox
+CodePath_Carousel
 =============
 
-This is a dropbox iOS app for welcome screens plus sign in and sign up flow.
+This is a carousel iOS app for the sign in flow.
 
 ### Hours to Complete
-About 3-4 hours.
+About 10 hours.
 
 ### Completed Stories
- * [x] REQUIRED: User can tap through the 3 welcome screens.
- * [x] REQUIRED: User can follow the create user flow.
-    * [x] On the create user form, the user can tap the back button to go to the page where they can sign in or create an account.
-    * [x] Before creating the account, user can choose to read the terms of service.
-    * [x] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
-    * [x] User can log out from the Settings screen.
- * [x] REQUIRED: User can follow the sign in flow.
-    * [x] User can tap the area for "Having trouble signing in?"
-    * [x] User can log out from the Settings screen.
- * [x] OPTIONAL: Will try to get to it later
+ * [x] REQUIRED: Static photo tiles on the initial screen
+   * [x] OPTIONAL: Photo tiles move with scrolling
+ * [x] Sign In
+   * [x] REQUIRED: Tapping on email/password reveals the keyboard and shifts the scrollview and Sign In button up.
+   * [x] REQUIRED: User sees an error alert when no email is present or no password is present.
+   * [x] REQUIRED: User sees a loading screen upon tapping the Sign In button.
+   * [x] REQUIRED: User sees an error alert when entering the wrong email/password combination.
+   * [x] REQUIRED: User is taken to the tutorial screens upon entering the correct email/password combination.
+   * [x] OPTIONAL: When the keyboard is visible, if the user pulls down(I did it with tapping) on the scrollview, it will dismiss the keyboard.
+ * [x] Tutorial Screens
+   * [x] REQUIRED: User can page between the screens
+   * [x] OPTIONAL: User can page between the screens with updated dots
+   * [x] OPTIONAL: Upon reaching the 4th page, hide the dots and show the "Take Carousel for a Spin" button.
+ * [x] Image Timeline
+   * [x] REQUIRED: Display a scrollable view of images.
+   * [x] REQUIRED: User can tap on the conversations button to see the conversations screen (push).
+   * [x] REQUIRED: User can tap on the profile image to see the settings view (modal from below).
+ * [x] Settings
+   * [x] REQUIRED: User can dismiss the settings screen.
+   * [x] REQUIRED: User can log out
 
 ### Other Notes
  * N/A
 
 ### Walkthrough
-![Video Walkthrough](dropbox-walkthrough.gif)
+![Video Walkthrough](carousel-walkthrough.gif)
